@@ -35,6 +35,9 @@ dependencies {
     implementation 'pl.allegro.tech.boot:handlebars-spring-boot-starter:0.3.4'
     implementation 'org.springframework.retry:spring-retry'
 
+    // redis
+    implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+
     // https://github.com/seruco/base62
     implementation 'io.seruco.encoding:base62:0.1.3'
 
