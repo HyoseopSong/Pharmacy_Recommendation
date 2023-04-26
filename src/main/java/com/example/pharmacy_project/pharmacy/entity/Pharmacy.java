@@ -1,9 +1,9 @@
 package com.example.pharmacy_project.pharmacy.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
@@ -24,7 +24,7 @@ public class Pharmacy {
   private double latitude;
   private double longitude;
 
-  public void changePharmacyAddress(String address) {
-    this.pharmacyAddress = address;
-  }
+//  public void changePharmacyAddress(String address) {
+//    this.pharmacyAddress = address;
+//  }
 }
